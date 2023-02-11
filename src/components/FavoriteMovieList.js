@@ -12,8 +12,7 @@ const FavoriteMovieList = (props) => {
           <Link
             key={movie.id}
             className="py-1 flex gap-2 justify-between"
-            to={`/movies/${movie.id}`}
-          >
+            to={`/movies/${movie.id}`}>
             {movie.title}
           </Link>
         ))}
